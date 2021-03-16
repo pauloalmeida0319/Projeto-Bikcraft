@@ -6,6 +6,7 @@
 
 .interna-sobre{
 	background: url(../img/bg-sobre.jpg) no-repeat center center;
+	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
