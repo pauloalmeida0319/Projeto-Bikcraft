@@ -167,7 +167,7 @@
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.dados-email{
+.orcamento_dados span:nth-last-of-type(2){
 	margin-bottom: 40px;
 }
 

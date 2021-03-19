@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/contato.css">
     
-    <title>Bikcraft - Sobre</title>
+    <title>Bikcraft - Contato</title>
 </head>
 <body>
     
@@ -21,64 +21,51 @@
             </a>
             <nav class="header_menu" class="grid-12">
                 <ul>
-                    <li><a href="sobre.html" class="menu_ativo">Sobre</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
                     <li><a href="portfolio.html">Portfólio</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="contato.html"class="menu_ativo" >Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
         
-    <section class="introducao-interna interna-sobre">
+    <section class="introducao-interna interna-contato">
             <div class="container">
-                <h1>Sobre</h1>
-                <p>Conheça mais sobre a bikcraft</p>
+                <h1>Contato</h1>
+                <p>Tire suas duvidas com a gente</p>
             </div>
     </section>
 
-    <section class="missao-sobre container">
-        <div class="grid-10">
-            <h2 class="subtitulo-interno">História, Missão e Visão</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-        </div>
-        <div class="grid-6">
-            <h2 class="subtitulo-interno">Valores</h2>
+    <section class="contato container">
+        <form id="form_orcamento" class="contato_form grid-8">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+            <label for="espec">Espeficicações</label>
+            <textarea type="espec" id="telefone"></textarea>
+            <button type="submit" class="btn btn-preto">Enviar</button>
+        </form>  
+        <div class="contato_dados" class="grid-8">
+            <h3>Dados</h3>
+            <span>Telefone: + 55 (21) 93223-3232</span>
+            <span>orcamento@bikcraft.com</span>
+            <span>Rua exemplo - Botafogo</span>
+            <span>Rio de janeiro - RJ - Brasil</span>
+            <h3>Redes Sociais</h3>
             <ul>
-                <li>- Qualidade no processo com </li>
-                <li>- Foco no cliente sem perder a  </li>
-                <li>- Diversão, preservando a </li>
-                <li>- Natureza com sustentabilidade </li>
+                <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.png" alt="Facebook"></a></li>
+                <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.png" alt="Instagram"></a></li>
+                <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.png" alt="Twitter"></a></li>
             </ul>
-        </div>
-        <div class="grid-16 foto-equipe">
-            <img src="img/sobre/equipe-bikcraft.jpg" alt="Equipe Bikcraft">
-        </div>
+        </div>  
     </section>
 
-    <section class="qualidade container">
-        <h2 class="subtitulo">Qualidade</h2>
-        <img src="img/bikcraft-qualidade.png" alt="Bikcraft Qualidade">
-        <ul class="qualidade_lista">
-            <li class="grid-1-3">
-                <h3>Durabilidade</h3>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumloremipsum
-                </p>
-            </li>
-            <li class="grid-1-3">
-                <h3>Design</h3>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumloremipsum
-                </p>
-            </li>
-            <li class="grid-1-3">
-                <h3>Sustentabilidade</h3>
-                <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsumloremipsum
-                </p>
-            </li>
-        </ul>
-        
+    <section class="container  contato_mapa">
+        <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bickcraft.jpg" alt="Endereço da Bikcraft"></a>
     </section>
 
     <section class="quebra">
