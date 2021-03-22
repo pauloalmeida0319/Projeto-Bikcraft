@@ -12,7 +12,9 @@ p{
 
 img{
     display: block;
+    max-width: 100%;
 }
+
 .btn{
     border: 3px solid #fec63e;
     padding: 10px 30px;
