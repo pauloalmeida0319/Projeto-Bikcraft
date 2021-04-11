@@ -11,7 +11,7 @@
     padding: 0 10px;
 }
 
-/* Footer */
+/* Footer */  
 
 .footer_sociais ul li a{
     border: 3px solid #fec63e;
@@ -22,6 +22,35 @@
 .footer_sociais ul li a img{
 	width: 26px;
 	height: 26px;
+}
+
+/* Produtos */
+
+.produto-item h2{
+	top: -150px;
+	margin-bottom: -56px;
+}
+
+.produto-icone{
+	padding: 40.9px 0;
+}
+
+.produto-info p{
+	font-size: 14px;
+	line-height: 20px;
+	height: 121px;
+	padding: 20px 30px;
+
+}
+
+.produto-info ul li{
+	width: 181px;
+	height: 49px;
+}
+
+.orcamento_dados ul li{
+	margin-left: 384px;
+
 }
 
 } /* Final do Estilo para Tablet*/
@@ -108,4 +137,41 @@
 	line-height: 25px;
 }
 
+/* Produtos */
+
+.produto-item h2{
+	top: -100px;
+	margin-bottom: -68px;
 }
+
+.produto-icone{
+	padding: 40.9px 0;
+}
+
+.produto-info p{
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+	padding: 20px 30px;
+
+}
+
+.produto-info ul li{
+	width: 149px;
+	height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	padding-top: 14px;
+}
+
+.form{
+	padding-right: 0px;
+}
+
+.orcamento_dados ul li{
+	padding-right: 0px;
+	margin-left: 0px;
+}
+
+
+}/* Final do Estilo para Smartphone*/
