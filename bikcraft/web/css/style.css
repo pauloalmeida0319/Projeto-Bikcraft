@@ -24,6 +24,7 @@ img{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: .1em;
+    transition: all .5s ease;
 }
 
 .btn:hover{
@@ -106,6 +107,7 @@ img{
     font-size: 14px;
     line-height: 20px;
     padding: 10px 0;
+    transition: all .5s ease;
 }
 
 .header_menu ul li a:hover{
@@ -263,7 +265,7 @@ img{
     background: #fec63e;
 }
 
-.portfolio_lista li:last-child{
+.portfolio_lista div:last-of-type{
     margin-top: 20px;
 }
 
@@ -383,6 +385,7 @@ img{
     border: 3px solid #fec63e;
     display: block;
     padding: 10px;
+    transition: all .5s ease;
 }
 
 .footer_sociais ul li a:hover{
